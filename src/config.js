@@ -2,14 +2,14 @@ import Discord from "discord.js";
 const { ButtonStyle, TextInputStyle } = Discord;
 
 export default {
-  PREFIX: "",
-  TOKEN: "",
-  ACTIVITY: { NAME: "", TYPE: "PLAYING" },
-  GUILD_ID: "",
+  PREFIX: "!",
+  TOKEN: process.env.TOKEN,
+  ACTIVITY: { NAME: "MCRP Ticket", TYPE: "PLAYING" },
+  GUILD_ID: "914277797449568306",
   TICKET: {
-    CHANNEL: "",
-    CATEGORY: "",
-    ARCHIVE_CATEGORY: "",
+    CHANNEL: "914277798020022279",
+    CATEGORY: "914439323489808404",
+    ARCHIVE_CATEGORY: "1256809495007334432",
     MESSAGE: "Click to create ticket!",
     STAFF_ROLES: [],
     BUTTONS: [
